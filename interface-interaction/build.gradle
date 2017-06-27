@@ -37,3 +37,7 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+
+apply from: 'bintray.gradle'
+apply from: 'install.gradle'

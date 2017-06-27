@@ -15,9 +15,7 @@ install {
 
                 licenses {
                     license {
-                        name 'The MIT License (MIT)\n' +
-                                '\n' +
-                                'Copyright (c) 2015 Agilie Team'
+                        name 'MIT'
                         url 'https://raw.githubusercontent.com/agilie/InterfaceInteraction/master/LICENSE.md'
                     }
                 }

@@ -38,10 +38,7 @@ bintray {
         desc = 'Interface-interaction Interact your app\'s interface elements with different effects!' // YOUR LIBRARY DESCRIPTION
         websiteUrl = 'https://github.com/agilie/InterfaceInteraction' // YOUR SITE
         vcsUrl = 'https://github.com/agilie/InterfaceInteraction' // YOUR GIT REPO
-        licenses = ["The MIT License (MIT)\n" +
-                            "+\n" +
-                            "\n +\n" +
-                            "Copyright (c) 2015 Agilie Team"] // A LIST OF YOUR LICENCES
+        licenses = ["MIT"] // A LIST OF YOUR LICENCES
         publish = true
         publicDownloadNumbers = true
     }
