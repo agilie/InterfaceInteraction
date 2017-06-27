@@ -1,0 +1,37 @@
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.agilie' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'interface-interaction'
+                groupId 'com.agilie' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'interface-interaction' // THE NAME OF YOUR MODULE
+
+                name 'Interface-interaction' // YOUR LIBRARY NAME
+                description 'Interface-interaction Interact your app\'s interface elements with different effects!' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/agilie/InterfaceInteraction' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The MIT License (MIT)\n' +
+                                '\n' +
+                                'Copyright (c) 2015 Agilie Team'
+                        url 'https://raw.githubusercontent.com/agilie/InterfaceInteraction/master/LICENSE.md'
+                    }
+                }
+                developers {
+                    developer {
+
+                    }
+                }
+                scm {
+                    connection 'https://github.com/agilie/InterfaceInteraction' // YOUR GIT REPO
+                    developerConnection 'https://github.com/agilie/InterfaceInteraction' // YOUR GIT REPO
+                    url 'https://github.com/agilie/InterfaceInteraction' // YOUR SITE
+                }
+            }
+        }
+    }
+}
