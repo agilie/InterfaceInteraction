@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="price_button_color">#00caff</color>
+    <color name="price_button_color_pressed">#00aadc</color>
+    <color name="background">#f8fafc</color>
+    <color name="white">#ffffff</color>
+</resources>

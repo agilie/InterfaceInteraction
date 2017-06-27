@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="PriceButton" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/rounded_ripple</item>
+    </style>
+
+    <style name="DownMenuCardView" parent="CardView">
+        <item name="android:layout_marginStart">@dimen/down_menu_margin_side</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:innerRadius">@dimen/card_view_inner_radius</item>
+        <item name="cardCornerRadius">@dimen/card_view_card_corner_radius</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+
+    <style name="ConcreteOptionsRelativeLayout">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="ArrowImageView">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/arrow_more</item>
+        <item name="android:layout_marginEnd">@dimen/image_margin_start</item>
+    </style>
+
+    <style name="MenuOptionIconImageView">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/image_margin_start</item>
+    </style>
+
+    <style name="MenuOptionNameTextView">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/menu_name_margin_start</item>
+    </style>
+
+    <style name="MenuOptionValueTextView">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/concrete_text_margin_end</item>
+    </style>
+</resources>

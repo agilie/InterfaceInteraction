@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutFrom"
+    style="@style/ConcreteOptionsRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/fromImage"
+        style="@style/MenuOptionIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/from_icon"/>
+
+    <TextView
+        android:id="@+id/fromText"
+        style="@style/MenuOptionNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/fromImage"
+        android:text="FROM"/>
+
+
+    <TextView
+        android:id="@+id/fromValueText"
+        style="@style/MenuOptionValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="263 Maggio Haven"/>
+
+    <ImageView
+        android:id="@+id/arrowFromImage"
+        style="@style/ArrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

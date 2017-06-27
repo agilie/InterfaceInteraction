@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="PriceButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded</item>
+        <item name="android:selectable">true</item>
+    </style>
+</resources>

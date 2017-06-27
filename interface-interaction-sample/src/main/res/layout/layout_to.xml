@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_to"
+    style="@style/ConcreteOptionsRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/toImage"
+        style="@style/MenuOptionIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/to_icon"/>
+
+    <TextView
+        android:id="@+id/toText"
+        style="@style/MenuOptionNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/toImage"
+        android:text="TO"/>
+
+
+    <TextView
+        android:id="@+id/toValueText"
+        style="@style/MenuOptionValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="43 Russel Forks"/>
+
+    <ImageView
+        android:id="@+id/ToArrowImage"
+        style="@style/ArrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+</RelativeLayout>

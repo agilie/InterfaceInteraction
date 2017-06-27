@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCHEDULE A RIDE" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/usersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usersRecyclerView"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_from" />
+
+        <include layout="@layout/horizontal_divider" />
+
+        <include layout="@layout/layout_to" />
+
+        <include layout="@layout/horizontal_divider" />
+
+        <include layout="@layout/layout_time" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layoutMenu"
+        android:layout_marginTop="41dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="106dp"
+            android:layout_marginTop="3dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layoutLuggage"
+                style="@style/DownMenuCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/down_menu_width"
+                    android:layout_height="@dimen/down_menu_height">
+
+                    <ImageView
+                        android:id="@+id/luggageImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/luggage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/luggageImage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/down_menu_image_name_margin_top"
+                        android:text="luggage" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/petsLayout"
+                style="@style/DownMenuCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/down_menu_width"
+                    android:layout_height="@dimen/down_menu_height">
+
+                    <ImageView
+                        android:id="@+id/petsImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/pets" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/petsImage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/down_menu_image_name_margin_top"
+                        android:text="Pets" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wheelchairLayout"
+                style="@style/DownMenuCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/down_menu_width"
+                    android:layout_height="@dimen/down_menu_height">
+
+                    <ImageView
+                        android:id="@+id/wheelchairImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/wheelchair" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/wheelchairImage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/down_menu_image_name_margin_top"
+                        android:text="Wheelchair" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/babySeatLayout"
+                style="@style/DownMenuCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/down_menu_margin_side">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/down_menu_width"
+                    android:layout_height="@dimen/down_menu_height">
+
+                    <ImageView
+                        android:id="@+id/babyCarSeatImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/baby_seat" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/babyCarSeatImage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="@dimen/down_menu_margin_side"
+                        android:layout_marginTop="@dimen/down_menu_image_name_margin_top"
+                        android:text="Baby car seat" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/priceButton"
+        style="@style/PriceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/layoutMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="21dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:innerRadius="@dimen/card_view_inner_radius"
+        android:paddingEnd="@dimen/price_button_paddings_side"
+        android:paddingStart="@dimen/price_button_paddings_side"
+        android:text="$45.00"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

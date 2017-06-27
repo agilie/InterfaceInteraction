@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_time"
+    style="@style/ConcreteOptionsRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/timeImage"
+        style="@style/MenuOptionIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/time_icon"/>
+
+    <TextView
+        android:id="@+id/timeText"
+        style="@style/MenuOptionNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/timeImage"
+        android:text="TIME"/>
+
+
+    <TextView
+        android:id="@+id/timeDateText"
+        style="@style/MenuOptionValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28.12.2016"/>
+
+    <TextView
+        android:id="@+id/TimeConcreteTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/concrete_time_margin_end"
+        android:layout_toStartOf="@id/timeDateText"
+        android:text="1:20 PM"/>
+
+    <ImageView
+        android:id="@+id/timeArrowImage"
+        style="@style/ArrowImageView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

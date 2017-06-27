@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="image_margin_start">12dp</dimen>
+    <dimen name="menu_name_margin_start">8dp</dimen>
+    <dimen name="concrete_text_margin_end">24dp</dimen>
+    <dimen name="concrete_time_margin_end">12dp</dimen>
+
+    <dimen name="horizontal_divider_height">1dp</dimen>
+
+
+    <dimen name="down_menu_horizontal_scroll_view_margin_top">76dp</dimen>
+    <dimen name="down_menu_width">100dp</dimen>
+    <dimen name="down_menu_height">100dp</dimen>
+
+    <dimen name="down_menu_image_width">40dp</dimen>
+    <dimen name="down_menu_image_height">40dp</dimen>
+    <dimen name="down_menu_image_name_margin_top">4dp</dimen>
+    <dimen name="down_menu_margin_side">8dp</dimen>
+
+    <dimen name="card_view_card_corner_radius">12dp</dimen>
+    <dimen name="card_view_inner_radius">0dp</dimen>
+
+    <dimen name="price_button_paddings_side">80dp</dimen>
+    <dimen name="emotar_size">60dp</dimen>
+    <dimen name="margin_left">13dp</dimen>
+</resources>
