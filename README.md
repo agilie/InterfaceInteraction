@@ -54,13 +54,18 @@ shaker.stopAnimation()
 
 Add dependency in your `build.gradle` file:
 ````gradle
-TODO
+compile 'com.agilie:interface-interaction:1.0'
 ````
 
 ### Maven
 Add rependency in your `.pom` file:
 ````xml
-TODO
+<dependency>
+  <groupId>com.agilie</groupId>
+  <artifactId>interface-interaction</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
 ````
 
 ## Requirements
