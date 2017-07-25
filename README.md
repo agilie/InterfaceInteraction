@@ -1,4 +1,25 @@
-# InterfaceInteraction
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/1777595/28571143-22a3a860-714a-11e7-92a4-28e89a3d0bb6.png" alt="InterfaceInteraction" title="InterfaceInteraction" width="75%"/>
+</p>
+
+<p>
+
+<p align="center">
+
+<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Android_Kotlin&utm_term=InterfaceInteraction">
+<img src="https://img.shields.io/badge/Made%20by-Agilie-green.svg?style=flat" alt="Made by Agilie">
+</a>
+
+<a href='https://bintray.com/agilie/maven/InterfaceInteraction/_latestVersion'>
+<img src='https://api.bintray.com/packages/agilie/maven/VolumeControlView/images/download.svg'>
+</a>
+
+<a href='https://raw.githubusercontent.com/agilie/InterfaceInteraction/master/LICENSE.txt'>
+<img src='https://img.shields.io/badge/license-MIT-blue.svg' alt='GitHub license'>
+</a>
+
+</p>
 
 Influenced with [PhysicsLayout](https://github.com/Jawnnypoo/PhysicsLayout) project, we've implemented an interesting animation. Our library captures any interface (screen or view) and throws its UI elements over under the influence of gravity, so that one can move them from side to side obliquely. Gravity depends on device's [accelerometer data](https://developer.android.com/reference/android/hardware/SensorManager.html). Call *stop()* method to return all the UI elements to their original location. 
 
